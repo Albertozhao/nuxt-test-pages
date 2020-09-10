@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-nuxt-i18n-base-template",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "latest",
+    "nuxt": "latest",
+    "nuxt-i18n": "latest",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": []
+}
