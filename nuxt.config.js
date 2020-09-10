@@ -42,9 +42,9 @@ export default {
         name: "English"
       },
       {
-        code: "fr",
-        iso: "fr-FR",
-        name: "Français"
+        code: "ru",
+        iso: "ru-RU",
+        name: "Russian"
       }
     ],
     defaultLocale: "en",
@@ -56,9 +56,9 @@ export default {
     seo: false,
     vueI18n: {
       messages: {
-        fr: {
-          home: "Accueil",
-          about: "À propos"
+        ru: {
+          home: "Главная",
+          about: "О нас"
         },
         en: {
           home: "Homepage",
