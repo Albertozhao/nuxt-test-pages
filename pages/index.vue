@@ -40,7 +40,12 @@ export default {
         locale => locale.code !== this.$i18n.locale
       );
     }
-  }
+  },
+  head() {
+    return {
+      title: this.$t('home')
+    }
+  },
 };
 </script>
 

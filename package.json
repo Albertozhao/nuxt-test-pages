@@ -12,9 +12,9 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/http": "latest",
-    "nuxt": "latest",
-    "nuxt-i18n": "latest",
+    "@nuxt/http": "^0.6.0",
+    "nuxt": "^2.14.6",
+    "nuxt-i18n": "^6.15.1",
     "reqlim": "^0.0.0"
   },
   "keywords": []
