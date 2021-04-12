@@ -5,10 +5,10 @@ export default {
    */
   ssr: true,
 
-    /*
-   ** Nuxt target
-   ** See https://nuxtjs.org/api/configuration-target
-   */
+  /*
+ ** Nuxt target
+ ** See https://nuxtjs.org/api/configuration-target
+ */
   target: 'static',
 
   /*
@@ -42,9 +42,9 @@ export default {
         name: "English"
       },
       {
-        code: "ru",
-        iso: "ru-RU",
-        name: "Russian"
+        code: "chn",
+        iso: "chn-CHN",
+        name: "Chinese"
       }
     ],
     defaultLocale: "en",
@@ -57,8 +57,8 @@ export default {
     vueI18n: {
       messages: {
         ru: {
-          home: "Главная",
-          about: "О нас"
+          home: "中文",
+          about: "我的故事"
         },
         en: {
           home: "Homepage",
@@ -81,7 +81,7 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    titleTemplate: '%s | Nuxt i18n',
+    titleTemplate: '%s | Nuxt.js',
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -121,6 +121,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 };
