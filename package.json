@@ -2,7 +2,7 @@
   "name": "nuxt-nuxt-i18n-base-template",
   "version": "1.0.0",
   "description": "",
-  "author": "Nuxt.js Team Members",
+  "author": "Nuxt.js",
   "private": true,
   "scripts": {
     "dev": "nuxt",
